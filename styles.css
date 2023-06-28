@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(175, 221, 179);
+    
+}
+/* flexbox
+display: flex;
+    flex-wrap: wrap;
+*/
+
+
+div {
+    background-color: aquamarine;
+    font-size: 25px;
+    margin: 30px;
+    padding: 40px;
+    width: 500px;
+    height: 150px;
+    align-self: center;
+}
+
+#titles>h2 {
+    color: brown;
+
+}
+
+a[href="https://amazon.com"] {
+    color: yellow;
+}
+
+a[href="https://amazon.com"]:hover {
+    color: yellowgreen;
+}
+
+a[href="https://facebook.com"] {
+    color: blue;
+}
+
+a[href="https://facebook.com"]:hover {
+    color: aqua;
+}
+
+a[href="https://google.com"] {
+    color: red;
+}
+
+a[href="https://google.com"]:hover {
+    color: orange;
+}
